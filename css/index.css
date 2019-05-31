@@ -210,3 +210,27 @@ footer nav a {
 .big-header-img {
 	margin: 0px auto 25px auto;
 }
+
+.about-footer {
+	margin-top: 45px;
+  width: 100%;
+  background: black;
+}
+
+.jumbo-about-img {
+	margin-bottom: 25px;
+}
+
+	.about-two-container {
+		border-bottom: 1px dashed black;
+}
+
+	.strategy-work-container {
+		display: flex;
+		flex-direction: row;
+		border-bottom: 1px dashed black;
+	}
+
+	.places-collaboration-container {
+		border-bottom: 1px dashed black;
+	}
