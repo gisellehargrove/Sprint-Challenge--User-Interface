@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,12 +24,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	margin-top: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -58,7 +59,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin: 17px 0px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -82,7 +83,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +105,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,126 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+		font-weight: 400;
+}
+
+.box-one {
+	background-color: teal;
+}
+
+.box-two {
+	background-color: gold;
+}
+
+.box-three {
+	background-color: cadetblue;
+}
+
+.box-four {
+	background-color: coral;
+}
+
+.box-five {
+	background-color: crimson;
+}
+
+.box-six {
+	background-color: forestgreen;
+}
+
+.box-seven {
+	background-color: darkorchid;
+}
+
+.box-eight {
+	background-color: hotpink;
+}
+
+.box-nine {
+	background-color: indigo;
+}
+
+.box-ten {
+	background-color: dodgerblue;
+}
+
+.nav-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/* justify-content: space-evenly; */
+	margin-bottom: 35px;
+}
+
+.nav-img {
+	flex-grow: 0;
+	padding-right: 45px;
+}
+.nav-link {
+	font-size: 14px;
+	flex-grow: 1;
+	padding: 25px 0px 0px 0px;
+	text-decoration: none;
+	color: black;
+	justify-content: space-evenly;
+}
+
+.big-header-img {
+	margin: 0px auto 25px auto;
+}
+
+.about-footer {
+	margin-top: 45px;
+  width: 100%;
+  background: black;
+}
+
+.jumbo-about-img {
+	margin-bottom: 25px;
+}
+
+	.about-two-container {
+		border-bottom: 1px dashed black;
+		padding: 0px 25px 25px 25px;
+}
+
+	.strategy-places-container {
+		border-bottom: 1px dashed black;
+	}
+
+
+.middle-left-container {
+	display: flex;
+}
+
+.middle-right-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.about-page {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+
+.dashed-bottom {
+	border-bottom: 1px dashed black;
+	margin: 10px;
+}
+
+.btn {
+	border: 2px solid black;
+	width: 120px;
+	display: block;
+	border-radius: 7px;
+	height: 35px;
+	margin: 15px 0px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.bottom-container {
+	padding: 20px 0px;
+	font-size: larger;
 }
