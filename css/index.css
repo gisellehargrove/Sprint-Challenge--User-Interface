@@ -59,7 +59,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 17px 0px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -223,15 +223,13 @@ footer nav a {
 
 	.about-two-container {
 		border-bottom: 1px dashed black;
+		padding: 0px 25px 25px 25px;
 }
 
 	.strategy-places-container {
 		border-bottom: 1px dashed black;
 	}
 
-	.how-collaboration-container {
-		border-bottom: 1px dashed black;
-	}
 
 .middle-left-container {
 	display: flex;
@@ -244,4 +242,11 @@ footer nav a {
 
 .about-page {
 	display: flex;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+
+.dashed-bottom {
+	border-bottom: 1px dashed black;
+	margin: 10px;
 }
