@@ -59,7 +59,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 17px 0px;
+    margin: 17px 0px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -249,4 +249,15 @@ footer nav a {
 .dashed-bottom {
 	border-bottom: 1px dashed black;
 	margin: 10px;
+}
+
+.btn {
+	border: 3px solid black;
+	width: 120px;
+	display: block;
+	border-radius: 7px;
+	height: 35px;
+	margin: 15px 0px;
+	font-size: 15px;
+	font-weight: 400;
 }
