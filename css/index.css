@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box-one {
+	background-color: teal;
+}
+
+.box-two {
+	background-color: gold;
+}
+
+.box-three {
+	background-color: cadetblue;
+}
+
+.box-four {
+	background-color: coral;
+}
+
+.box-five {
+	background-color: crimson;
+}
+
+.box-six {
+	background-color: forestgreen;
+}
+
+.box-seven {
+	background-color: darkorchid;
+}
+
+.box-eight {
+	background-color: hotpink;
+}
+
+.box-nine {
+	background-color: indigo;
+}
+
+.box-ten {
+	background-color: dodgerblue;
 }
