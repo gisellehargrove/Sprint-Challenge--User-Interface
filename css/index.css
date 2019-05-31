@@ -69,7 +69,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 0px auto 25px auto;
+    margin: 0 auto;
 }
 
 .top-content {
@@ -143,6 +143,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+		font-weight: 400;
 }
 
 .box-one {
@@ -204,4 +205,8 @@ footer nav a {
 	text-decoration: none;
 	color: black;
 	justify-content: space-evenly;
+}
+
+.big-header-img {
+	margin: 0px auto 25px auto;
 }
