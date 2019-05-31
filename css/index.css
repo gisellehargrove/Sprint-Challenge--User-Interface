@@ -241,3 +241,7 @@ footer nav a {
 	display: flex;
 	flex-direction: row;
 }
+
+.about-page {
+	display: flex;
+}
