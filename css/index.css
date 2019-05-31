@@ -225,12 +225,19 @@ footer nav a {
 		border-bottom: 1px dashed black;
 }
 
-	.strategy-work-container {
-		display: flex;
-		flex-direction: row;
+	.strategy-places-container {
 		border-bottom: 1px dashed black;
 	}
 
-	.places-collaboration-container {
+	.how-collaboration-container {
 		border-bottom: 1px dashed black;
 	}
+
+.middle-left-container {
+	display: flex;
+}
+
+.middle-right-container {
+	display: flex;
+	flex-direction: row;
+}
